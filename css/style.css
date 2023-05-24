@@ -98,6 +98,9 @@ button{
         position: absolute;
         width: 100%;
     }
+    .banner{
+        margin-bottom: 10%;
+    }
 }
 /*
 LEMBRETES:
