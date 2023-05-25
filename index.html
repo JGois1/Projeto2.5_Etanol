@@ -27,23 +27,23 @@
                 <form action="#">
 
                     <div> <!--essas duas divs sao apenas pra ajudarem no funcionamento do flexbox-->
-                        <label>Informe o preço do Etanol</label><br>
-                        <input type="text">
+                        <label >Informe o preço do Etanol</label><br>
+                        <input type="text" id="etanol">
                     </div>
 
                     <div>
                         <label>Informe o preço da Gasolina</label><br>
-                        <input type="text">
+                        <input type="text" id="gasolina">
                     </div>
 
-                    <button>Calcular</button>
+                    <button type="button" onclick="calcularFuel()">Calcular</button>
 
                 </form>
 
             </div>
 
             <div class="result">
-                <h3>Abasteça com: <br>Gasolina</h3>
+                <h3>Abasteça com: <br><span id="gas">Gasolina</span></h3>
             </div>
     
     </div>
